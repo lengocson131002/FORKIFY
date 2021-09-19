@@ -1,22 +1,36 @@
 {
-  "name": "forkify",
+  "name": "FORKIFY",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.html",
-  "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html"
+  "description": "A recipe application with more than 10000 recipes",
+  "main": "index.js",
+  "targets": {
+    "main": false
   },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "core-js": "^3.17.3",
     "fractional": "^1.0.0",
-    "model.js": "0.0.1"
-  },
-  "devDependencies": {
-    "parcel-bundler": "^1.12.5",
+    "model.js": "^0.0.1",
     "regenerator-runtime": "^0.13.9",
     "sass": "^1.39.2"
-  }
+  },
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "@parcel/transformer-sass": "^2.0.0-rc.0",
+    "parcel": "^2.0.0-rc.0"
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lengocson131002/FORKIFY.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lengocson131002/FORKIFY/issues"
+  },
+  "homepage": "https://github.com/lengocson131002/FORKIFY#readme"
 }

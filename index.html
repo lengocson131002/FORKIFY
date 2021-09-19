@@ -9,7 +9,7 @@
   <link rel="shortcut icon" href="src/img/favicon.png" type="image/x-icon" />
 
   <link rel="stylesheet" href="src/sass/main.scss" />
-  <script defer src="src/js/controller.js"></script>
+  <script defer type="module" src="src/js/controller.js"></script>
 
   <title>forkify // Search over 1,000,000 recipes</title>
 </head>
@@ -246,8 +246,8 @@
     </div>
   </div>
 
-  <div class="overlay hidden"></div>
-  <div class="add-recipe-window hidden">
+  <div class="hidden overlay"></div>
+  <div class="hidden add-recipe-window">
     <button class="btn--close-modal">&times;</button>
     <form class="upload">
       <div class="upload__column">
